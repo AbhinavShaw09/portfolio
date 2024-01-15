@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 :root {
-  background-color: #161616;
+  background-image: linear-gradient(to right, #434343 0%, black 100%);
   color: white;
 }
 
@@ -12,10 +12,10 @@ body::-webkit-scrollbar {
 }
 
 body::-webkit-scrollbar-track {
-  -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
 }
 
 body::-webkit-scrollbar-thumb {
-background-color: darkgrey;
-outline: 1px solid slategrey;
+  background-color: darkgrey;
+  outline: 1px solid slategrey;
 }
