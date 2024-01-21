@@ -15,6 +15,13 @@ const ProjectList = [
     stack: "Django, Scikit-Learn",
     link: "https://github.com/AbhinavShaw09/Tip-Prediction",
   },
+  {
+    title: "ChessJs",
+    description:
+      "A Simple 2-D chess Game for 2 players",
+    stack: "Html, Css, Javascript",
+    link: "https://github.com/AbhinavShaw09/ChessJS",
+  },
 ];
 
 const Projects = () => {
