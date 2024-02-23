@@ -27,7 +27,7 @@ const Home = () => {
             <div className="flex justify-start align-center space-x-5">
               <a
                 className="inline-block rounded bg-indigo-600 px-6 sm:px-4 py-2 text-sm font-medium text-white transition  hover:scale-110 focus:outline-none focus:ring active:bg-indigo-500 mt-5 duration-500"
-                href="https://drive.google.com/file/d/1KmdsSBBAaRTHAqx_T2qxxVLMR5UCtWH9/view?usp=sharing"
+                href="https://drive.google.com/file/d/167uKlzMqBB3X7AkCnsEk60oaWfs7-CNG/view?usp=sharing"
                 target="_blank"
                 rel="noopener noreferrer"
               >
