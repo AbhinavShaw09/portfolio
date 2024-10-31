@@ -1,13 +1,22 @@
 import Layout from "../Components/Layout";
 
 const ExperienceList = [
+  
+  {
+    name: "Nirmata",
+    description:
+      "Worked as a Automation Engineer where I created the automation framework from scratch using playwright and jenkins for CI, Automated 70% of the manual test cases.",
+    stack: "Playwright, Jenkins, Typescript, Docker, kubernetes",
+    role:"QA Automation Intern",
+    date: "Jul 2024 - Oct 2024 ",
+  },
   {
     name: "Ulai",
     description:
       " Backend development for Prizi using django and drf, performing data analysis on the customer data to give insights, working on the rule engine for dynamic discount system for Prizi, Created dashboard for Prizi using react and mui, created the landing page for ulai. Managing the social media page for Ulai.",
     stack: "Statistics, Django, Scikit-Learn, React.js, Machine Learning",
     role:"Software Engineer Intern",
-    date:"Nov 2023 - Dec 2023",
+    date:"Nov 2023 - Jan 2023",
   },
   {
     name: "Octowit.ai",

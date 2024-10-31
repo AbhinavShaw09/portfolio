@@ -2,6 +2,13 @@ import Layout from "../Components/Layout";
 
 const ProjectList = [
   {
+    title: "MadSocial",
+    description:
+      " A social media application built using Django and Bootstap5. Users can login and register, update their data, user can create,read,update,delete posts, user cannot update or delete the post of another user",
+    stack: "Django, Jinja template, Bootstrap5",
+    link: "https://github.com/AbhinavShaw09/madSocial",
+  },
+  {
     title: "StockPulse",
     description:
       " An inventory management system built using Django and Django Rest Framework (DRF). Tested all the endpoints using Postman.",
@@ -17,8 +24,7 @@ const ProjectList = [
   },
   {
     title: "ChessJs",
-    description:
-      "A Simple 2-D chess Game for 2 players",
+    description: "A Simple 2-D chess Game for 2 players",
     stack: "Html, Css, Javascript",
     link: "https://github.com/AbhinavShaw09/ChessJS",
   },
