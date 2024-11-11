@@ -1,4 +1,5 @@
 import Layout from "../Components/Layout";
+import { motion } from "framer-motion";
 
 const ProjectList = [
   {
@@ -36,7 +37,10 @@ const Projects = () => {
       <div className="lg:p-5 flex items-center justify-center flex-col">
         <h1 className="text-3xl mb-4 font-bold">Projects</h1>
         {ProjectList.map((project, index) => (
-          <div
+          <motion.div
+          initial={{ opacity: 0, scale: 0.5 }}
+          animate={{ opacity: 1, scale: 1 }}
+          transition={{ duration: 0.5 }}
             key={index}
             className=" p-5 text-lg mb-6 w-11/12 lg:w-5/12 leading-loose font-medium border-2 border-purple-500 rounded-lg  transition hover:scale-95 duration-500"
           >
@@ -45,7 +49,7 @@ const Projects = () => {
               <p className="text-sm">{project.description}</p>
             </a>
             <li className="text-sm mt-1">{project.stack}</li>
-          </div>
+          </motion.div>
         ))}
       </div>
     </Layout>
