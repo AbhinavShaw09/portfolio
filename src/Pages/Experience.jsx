@@ -5,8 +5,8 @@ const ExperienceList = [
   {
     name: "Dukaan®",
     description:
-      "Working as Backend Engineer, Integrated Paytm gateway services for users to recieve the tractions from DukaanPay, Added the blacklisting fraud users feature from the super admin.",
-    stack: "Django, Django Rest Framework, Postman, Sql",
+      "Working as Backend Engineer, Integrated Paytm gateway services for users to recieve the tractions from DukaanPay, Added the blacklisting fraud users feature for the super admin.",
+    stack: "Django, Django Rest Framework, Postman, Sql, Kubernetes, Docker",
     role: "Backend Engineer",
     date: "OCt 2024 - Present",
   },
@@ -42,7 +42,6 @@ const Experience = () => {
       <div
         className="lg:p-5 flex items-center justify-center flex-col"
       >
-        <h1 className="text-3xl mb-4 font-bold">Experience</h1>
         {ExperienceList.map((experience, index) => (
           <motion.div
           initial={{ opacity: 0, scale: 0.5 }}

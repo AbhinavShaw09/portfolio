@@ -17,7 +17,7 @@ const navList = [
 
 const Navbar = () => {
   return (
-    <header className="">
+    <header className="m-4">
       <div className="mx-auto max-w-screen-xl px-4 sm:px-6 lg:px-8">
         <div className="flex h-16 items-center justify-center text-center">
           <div className="md:block">

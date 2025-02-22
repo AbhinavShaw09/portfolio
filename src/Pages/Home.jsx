@@ -1,16 +1,14 @@
 import Layout from "../Components/Layout";
 import MyPhoto from "../assets/1704811977663.jpeg";
-import { motion } from "framer-motion";
+import { FlipWords } from "../ui/Flipwords";
 
 const Home = () => {
+  const words = ["EAT", "SLEEP", "CODE", "REPEAT"];
   return (
     <>
       <Layout>
-        <motion.div
-          className="lg:p-5 flex items-center justify-center flex-col"
-          initial={{ opacity: 0, scale: 0.5 }}
-          animate={{ opacity: 1, scale: 1 }}
-          transition={{ duration: 0.5 }}
+        <div
+          className="lg:p-5 flex items-center justify-center flex-col "
         >
           <div className=" p-5 text-lg mb-6 w-11/12 lg:w-5/12  leading-loose font-medium border-2 border-purple-500 rounded-lg">
             <img
@@ -30,10 +28,14 @@ const Home = () => {
               React, Django, Django Rest Framework, Tailwind CSS, Python, Scikit
               Learn, Docker, Node JS, MUI, Chakra UI
             </p>
+            <div className="flex text-3xl items-center font-bold mt-4 justify-center">
+              <FlipWords words={words} /> <br />
+            </div>
+
             <div className="flex justify-start items-center flex-wrap">
               <a
                 className="inline-block rounded mx-2 bg-indigo-600 px-6 sm:px-4 py-2 text-sm font-medium text-white transition  hover:scale-110 focus:outline-none focus:ring active:bg-indigo-500 mt-5 duration-500"
-                href="https://drive.google.com/file/d/1ELppGfPLk-V0lzUoTDMxjpXP2UwYNI9o/view?usp=drive_linkz"
+                href="https://drive.google.com/file/d/1OMNmV3wLUxTp4bguCUlUAJpblNkkn3ai/view?usp=drive_link"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -55,33 +57,9 @@ const Home = () => {
               >
                 Github
               </a>
-              <a
-                className="inline-block rounded mx-2 bg-blue-500 px-6 py-2 sm:px-4 text-sm font-extrabold text-white transition  hover:scale-110 focus:outline-none focus:ring active:bg-blue-400 mt-5 duration-500"
-                href="https://www.kaggle.com/abhinavshaw09"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                Kaggle
-              </a>
-              <a
-                className="inline-block rounded mx-2 bg-gray-950 px-6 py-2 sm:px-4 text-sm font-extrabold text-white transition  hover:scale-110 focus:outline-none focus:ring active:bg-blue-400 mt-5 duration-500"
-                href="https://x.com/sh_abhi09"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                X
-              </a>
-              <a
-                className="inline-block rounded mx-2 bg-yellow-500 px-6 py-2 sm:px-4 text-sm font-extrabold text-white transition  hover:scale-110 focus:outline-none focus:ring active:bg-blue-400 mt-5 duration-500"
-                href="https://leetcode.com/u/Abhinav_Shaw/"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                Leetcode
-              </a>
             </div>
           </div>
-        </motion.div>
+        </div>
       </Layout>
     </>
   );

@@ -35,7 +35,6 @@ const Projects = () => {
   return (
     <Layout>
       <div className="lg:p-5 flex items-center justify-center flex-col">
-        <h1 className="text-3xl mb-4 font-bold">Projects</h1>
         {ProjectList.map((project, index) => (
           <motion.div
           initial={{ opacity: 0, scale: 0.5 }}
