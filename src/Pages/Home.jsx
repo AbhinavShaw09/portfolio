@@ -35,7 +35,7 @@ const Home = () => {
             <div className="flex justify-start items-center flex-wrap">
               <a
                 className="inline-block rounded mx-2 bg-indigo-600 px-6 sm:px-4 py-2 text-sm font-medium text-white transition  hover:scale-110 focus:outline-none focus:ring active:bg-indigo-500 mt-5 duration-500"
-                href="https://drive.google.com/file/d/1OMNmV3wLUxTp4bguCUlUAJpblNkkn3ai/view?usp=drive_link"
+                href="https://drive.google.com/file/d/1QNGZvBr68Oyi_mspPiNzd8AeLEAJyFID/view?usp=drive_link"
                 target="_blank"
                 rel="noopener noreferrer"
               >
