@@ -1,4 +1,5 @@
 import Navbar from "./Navbar/Navbar";
+import PropTypes from "prop-types";
 
 const Layout = ({ children }) => {
   return (
@@ -7,6 +8,10 @@ const Layout = ({ children }) => {
       {children}
     </>
   );
+};
+
+Layout.propTypes = {
+  children: PropTypes.node.isRequired,
 };
 
 export default Layout;

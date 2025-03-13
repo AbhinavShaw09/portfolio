@@ -27,7 +27,7 @@ const Navbar = () => {
                   <li key={index}>
                     <Link
                       className={
-                        "text-white transition hover:text-purple-400/75"
+                        "text-white transition hover:text-yellow-300"
                       }
                       to={item.link}
                     >
